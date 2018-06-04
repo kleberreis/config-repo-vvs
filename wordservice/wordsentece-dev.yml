@@ -1,3 +1,4 @@
+example.property: "I AM IN THE DEFAULT"
 spring.jpa.database: "SQLSERVER"
 spring.datasource.platform:  "sqlserver"
 spring.jpa.show-sql: "true"
