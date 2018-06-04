@@ -1,5 +1,5 @@
 example.property: "I AM IN THE DEFAULT"
 redis.server: "redis"
 redis.port: "6379"
-words:boat,book,vote,seAT
+words: "boat,book,vote,seat"
 signing.key: "345345fsdfsf5345"
