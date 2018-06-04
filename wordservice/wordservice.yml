@@ -2,6 +2,9 @@ example.property: "I AM IN THE DEFAULT"
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
+spring:
+        application:
+                name: word-service-${spring.profiles.active}
 ---
 spring:
         profiles: subject
@@ -11,3 +14,18 @@ words: I,You,He,She,It
 spring:
         profiles: verbs
 words: ran,knew,had,saw,bought
+
+---
+spring:
+        profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+        profiles: article
+words: a,the
+
+---
+spring:
+        profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
