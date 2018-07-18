@@ -1,4 +1,4 @@
-zuul
+zuul:
   ignored-services: "*"
   prefix:  /api
   routes:
