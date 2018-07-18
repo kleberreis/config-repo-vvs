@@ -2,7 +2,10 @@ zuul:
   ignored-services: "*"
   prefix:  /api
   routes:
-    provinceservice: /province/**
+    provinceservice: 
+      path: /province/**
+      serviceId: province
+      stripPrefix: false
 #zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
