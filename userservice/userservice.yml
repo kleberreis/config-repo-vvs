@@ -10,7 +10,7 @@ spring:
    datasource:
       driver-class-name: "oracle.jdbc.driver.OracleDriver"
       url: "jdbc:oracle:thin:@localhost:1521:xe"
-      username: "{cipher}1a9a0e5eef3d2656afce3d6fee4eda188e1d7a3128480efc458c4abc031267a7"
-      password: "{cipher}a8c9971c890b817e4e11105f80485bf1d889ed3ab56829d25cead8dd4cd3afca"
+      username: "vvs"
+      password: "vvs"
       testWhileIdle: "true"
       validationQuery: "SELECT 1 from dual"
