@@ -5,8 +5,10 @@ spring:
       properties:
          hibernate:
             dialect: "org.hibernate.dialect.Oracle12cDialect"
-            ddl-auto: "create"
+            ddl-auto: "none"
             use-new-id-generator-mappings: "true"
+            properties:
+                    hibernate.hbm2ddl.auto: "create-drop"
    datasource:
       driver-class-name: "oracle.jdbc.driver.OracleDriver"
       url: "jdbc:oracle:thin:@localhost:1521:xe"
