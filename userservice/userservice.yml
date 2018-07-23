@@ -5,7 +5,7 @@ spring:
       properties:
          hibernate:
             dialect: "org.hibernate.dialect.Oracle12cDialect"
-            ddl-auto: update
+            ddl-auto: "create"
             use-new-id-generator-mappings: "true"
    datasource:
       driver-class-name: "oracle.jdbc.driver.OracleDriver"
