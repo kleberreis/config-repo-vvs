@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: "true"
+    generate-ddl: "true"
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.Oracle12cDialect"
+        ddl-auto: "update"
+        use-new-id-generator-mappings: "true"
+  datasource:
+    driver-class-name: "oracle.jdbc.driver.OracleDriver"
+    url: "jdbc:oracle:thin:@localhost:1521:xe"
+    username: "vvs"
+    password: "vvs"
+    testWhileIdle: "true"
+    validationQuery: "SELECT 1 from dual"
